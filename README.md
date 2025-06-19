@@ -1,10 +1,5 @@
 # springboot-google-drive-file-downloader
 
-Here’s a complete `README.md` file for your **Spring Boot Google Drive Video Download** project:
-
----
-
-```markdown
 # 📽️ Google Drive Video Downloader (Spring Boot)
 
 This Spring Boot application allows you to **download videos from Google Drive** using a **service account**. It connects to Google Drive API securely and streams the requested file to the client.
@@ -23,19 +18,17 @@ This Spring Boot application allows you to **download videos from Google Drive**
 ## 📁 Project Structure
 
 ```
-
 src/
-└── main/
-├── java/
-│   └── com.example.demo/
-│       ├── controller/
-│       │   └── DownloadController.java
-│       └── service/
-│           └── GoogleDriveService.java
-└── resources/
-└── service\_account.json  <-- 🔑 Google credentials
-
-````
+ └── main/
+     ├── java/
+     │   └── com.example.demo/
+     │       ├── controller/
+     │       │   └── DownloadController.java
+     │       └── service/
+     │           └── GoogleDriveService.java
+     └── resources/
+         └── service_account.json  <-- 🔑 Google credentials
+```
 
 ---
 
@@ -88,7 +81,7 @@ src/
 
 ```bash
 mvn spring-boot:run
-````
+```
 
 Then visit in browser or use Postman:
 
@@ -102,10 +95,10 @@ Replace `{fileId}` with the actual Google Drive File ID.
 
 ## 🛠️ Technologies Used
 
-* Java 17
-* Spring Boot 3.5.0
-* Google Drive API v3
-* Maven
+- Java 17
+- Spring Boot 3.5.0
+- Google Drive API v3
+- Maven
 
 ---
 
@@ -154,5 +147,3 @@ Developed by [Sharad Kamble](https://github.com/sharad-kamble)
 ## 📜 License
 
 This project is licensed under the [MIT License](LICENSE).
-
-```
